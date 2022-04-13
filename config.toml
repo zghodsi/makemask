@@ -1,0 +1,18 @@
+[types]
+
+MODEL_LEN = 10
+
+## option 1
+#TRANSMIT_TYPE = "float16"
+#BYTES_NUMBER = 1
+#MASK_TYPE = "int8"
+
+## option 2
+TRANSMIT_TYPE = "float32"
+BYTES_NUMBER = 2
+MASK_TYPE = "int16"
+
+## option 3
+#TRANSMIT_TYPE = "float64"
+#BYTES_NUMBER = 4
+#MASK_TYPE = "int32"
